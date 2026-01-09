@@ -3,6 +3,7 @@ import AppIcon from "./components/AppIcon/AppIcon";
 import toolsLogo from "./assets/secure-data-tools-logo.svg";
 import launchLogo from "./assets/game-launch-ui-logo.svg";
 import logsLogo from "./assets/api-logs-monitor-logo.svg";
+import ApiStatus from "./components/ApiStatus/ApiStatus";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           path="/api-logs-monitor"
         />
       </div>
+
+      <ApiStatus />
     </div>
   );
 }
