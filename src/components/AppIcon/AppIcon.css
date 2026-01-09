@@ -1,0 +1,32 @@
+.app-wrapper {
+  height: 10rem;
+  aspect-ratio: 1/1;
+  border: 3px solid var(--border);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--dark);
+}
+
+.app-wrapper:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+  transform: scale(1.02);
+}
+
+.app-wrapper:active {
+  transform: scale(1);
+}
+
+.app-icon {
+  height: 6rem;
+}
+
+.app-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
