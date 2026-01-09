@@ -1,14 +1,18 @@
 .app-wrapper {
   height: 10rem;
   aspect-ratio: 1/1;
-  border: 3px solid var(--border);
+  border: 0.15rem solid var(--border);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  background-color: var(--dark);
+  gap: 1rem;
+
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
 .app-wrapper:hover {
@@ -28,5 +32,4 @@
 .app-title {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--dark-gray);
 }

@@ -3,15 +3,16 @@ import "./AppIcon.css";
 interface AppIconProps {
   icon: string;
   title: string;
+  path: string;
 }
 
-const AppIcon = ({ icon, title }: AppIconProps) => {
+const AppIcon = ({ icon, title, path }: AppIconProps) => {
   return (
-    <div className="app-wrapper">
+    <a className="app-wrapper" href={path}>
       <img src={icon} alt="tools" className="app-icon" />
 
       <p className="app-title">{title}</p>
-    </div>
+    </a>
   );
 };
 

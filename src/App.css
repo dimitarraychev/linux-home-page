@@ -1,18 +1,31 @@
 .app {
   min-height: 100vh;
-  max-height: 100vh;
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  position: relative;
   overflow-x: hidden;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--light-gray);
+  text-align: center;
 }
 
 .apps-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   gap: 1rem;
 }
