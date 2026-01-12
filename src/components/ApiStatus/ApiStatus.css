@@ -4,9 +4,13 @@
   font-weight: bold;
   border-radius: 0.5rem;
   text-align: center;
-  width: fit-content;
   margin: 1rem auto;
+  width: 13rem;
   border: 1px solid var(--border);
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .api-status.loading p {
