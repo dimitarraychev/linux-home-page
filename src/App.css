@@ -1,6 +1,6 @@
 .app {
   min-height: 100vh;
-  color: white;
+  color: var(--text-primary);
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -15,7 +15,7 @@
 
 .subtitle {
   font-size: 1.2rem;
-  color: var(--light-gray);
+  color: var(--text-secondary);
   text-align: center;
 }
 

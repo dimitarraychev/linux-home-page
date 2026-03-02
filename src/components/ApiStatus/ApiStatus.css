@@ -1,20 +1,19 @@
 .api-status {
-  padding: 0.5rem 1.5rem;
+  padding: var(--element-padding);
   font-family: sans-serif;
   font-weight: bold;
-  border-radius: 0.5rem;
+  border-radius: var(--border-radius);
   text-align: center;
   margin: 1rem auto;
-  width: 13rem;
-  border: 1px solid var(--border);
-  height: 2.5rem;
+  border: var(--card-border);
+  background-color: var(--card-bg);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .api-status.loading p {
-  color: var(--light-gray);
+  color: var(--text-secondary);
 }
 
 .api-status.live p {
