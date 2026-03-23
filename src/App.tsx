@@ -4,6 +4,7 @@ import toolsLogo from "./assets/secure-data-tools-logo.svg";
 import launchLogo from "./assets/game-launch-ui-logo.svg";
 import logsLogo from "./assets/api-logs-monitor-logo.svg";
 import inspectorLogo from "./assets/errors-inspector-logo.svg";
+import mongoLogo from "./assets/mongo-logo.svg";
 import ApiStatus from "./components/ApiStatus/ApiStatus";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           title="Errors Inspector"
           path="/errors-inspector/"
         />
+        <AppIcon icon={mongoLogo} title="MongoDB" path="/mongo/" />
       </div>
 
       <ApiStatus />
