@@ -4,7 +4,7 @@ import toolsLogo from "./assets/secure-data-tools-logo.svg";
 import launchLogo from "./assets/game-launch-ui-logo.svg";
 import logsLogo from "./assets/api-logs-monitor-logo.svg";
 import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
-import accountingInspectorLogo from "./assets/accounting-inspector-logo.svg";
+import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import ApiStatus from "./components/ApiStatus/ApiStatus";
 
@@ -38,9 +38,9 @@ function App() {
           path="/errors-inspector/"
         />
         <Application
-          icon={accountingInspectorLogo}
-          title="Accounting Inspector"
-          path="/accounting-inspector/"
+          icon={businessAnalyticsLogo}
+          title="Business Analytics"
+          path="/business-analytics/"
         />
         <Application icon={mongoLogo} title="MongoDB" path="/mongo/" />
       </div>
