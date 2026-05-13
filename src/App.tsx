@@ -7,11 +7,19 @@ import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
 import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
+import background from "./assets/background.jpg";
 import ApiStatus from "./components/ApiStatus/ApiStatus";
 
 function App() {
   return (
-    <div className="app">
+    <div
+      className="app"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        height: "100vh",
+      }}
+    >
       <h1 className="title">Welcome to the Company Apps Dashboard!</h1>
       <p className="subtitle">Select an app below to get started.</p>
 

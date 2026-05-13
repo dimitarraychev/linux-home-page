@@ -5,7 +5,7 @@
 }
 
 .icon-wrapper {
-  height: 6rem;
+  height: 5rem;
   aspect-ratio: 1/1;
   border: var(--card-border);
   border-radius: var(--border-radius);
@@ -31,7 +31,7 @@
 }
 
 .app-icon {
-  height: 5rem;
+  height: 4rem;
 }
 
 .app-title {
