@@ -1,0 +1,13 @@
+services:
+  linux-home-page:
+    build: .
+    image: linux-home-page:latest
+    container_name: linux-home-page
+    ports:
+      - "8080:80"
+    restart: always
+
+networks:
+  default:
+    name: global-link
+    external: true
