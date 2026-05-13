@@ -6,6 +6,7 @@ import logsLogo from "./assets/api-logs-monitor-logo.svg";
 import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
 import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
+import portainerLogo from "./assets/portainer-logo.svg";
 import ApiStatus from "./components/ApiStatus/ApiStatus";
 
 function App() {
@@ -16,12 +17,15 @@ function App() {
 
       <ApiStatus />
 
+      <h4 className="separator">🆖 Nginx</h4>
+
       <div className="apps-container">
         <Application
           icon={toolsLogo}
           title="Secure Data Tools"
           path="/secure-data-tools/"
         />
+
         <Application
           icon={launchLogo}
           title="Game Launch UI"
@@ -43,6 +47,28 @@ function App() {
           path="/business-analytics/"
         />
         <Application icon={mongoLogo} title="MongoDB" path="/mongo/" />
+      </div>
+
+      <h4 className="separator">🐳 Docker</h4>
+
+      <div className="apps-container">
+        <Application
+          icon={portainerLogo}
+          title="Portainer"
+          path="https://45.128.98.99:9443/"
+        />
+
+        <Application
+          icon={toolsLogo}
+          title="Secure Data Tools"
+          path="http://45.128.98.99:8082/"
+        />
+
+        <Application
+          icon={mongoLogo}
+          title="MongoDB"
+          path="http://45.128.98.99:8083/"
+        />
       </div>
     </div>
   );
