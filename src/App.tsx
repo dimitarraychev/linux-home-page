@@ -8,7 +8,6 @@ import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
 import background from "./assets/background.jpg";
-import ApiStatus from "./components/ApiStatus/ApiStatus";
 
 function App() {
   return (
@@ -22,8 +21,6 @@ function App() {
     >
       <h1 className="title">Welcome to the Company Apps Dashboard!</h1>
       <p className="subtitle">Select an app below to get started.</p>
-
-      <ApiStatus />
 
       <h4 className="separator">🐳 Docker</h4>
 
