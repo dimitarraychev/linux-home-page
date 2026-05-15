@@ -85,6 +85,12 @@ function App() {
         />
 
         <Application
+          icon={errorsInspectorLogo}
+          title="Errors Inspector"
+          path="http://45.128.98.99:8086/"
+        />
+
+        <Application
           icon={mongoLogo}
           title="MongoDB"
           path="http://45.128.98.99:8083/"
