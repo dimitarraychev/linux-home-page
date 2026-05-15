@@ -4,7 +4,7 @@ services:
     image: linux-home-page:latest
     container_name: linux-home-page
     ports:
-      - "8080:80"
+      - "8081:80"
     restart: always
 
 networks:
