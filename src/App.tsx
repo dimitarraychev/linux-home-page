@@ -7,6 +7,7 @@ import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
 import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
+import developmentLogo from "./assets/development-logo.svg";
 import background from "./assets/background.jpg";
 import applicationsIcon from "./assets/applications-icon.svg";
 import infrastructureIcon from "./assets/infrastructure-icon.svg";
@@ -77,6 +78,12 @@ function App() {
           icon={mongoLogo}
           title="Mongo Express"
           path="http://45.128.98.99:8083/"
+        />
+
+        <Application
+          icon={developmentLogo}
+          title="Development"
+          path="http://45.128.98.99:5173/"
         />
       </div>
     </div>
