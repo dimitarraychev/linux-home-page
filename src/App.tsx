@@ -25,38 +25,6 @@ function App() {
 
       <ApiStatus />
 
-      <h4 className="separator">🆖 Nginx</h4>
-
-      <div className="apps-container">
-        <Application
-          icon={toolsLogo}
-          title="Secure Data Tools"
-          path="/secure-data-tools/"
-        />
-
-        <Application
-          icon={launchLogo}
-          title="Game Launch UI"
-          path="/game-launch-ui/"
-        />
-        <Application
-          icon={logsLogo}
-          title="API Logs Monitor"
-          path="/api-logs-monitor/"
-        />
-        <Application
-          icon={errorsInspectorLogo}
-          title="Errors Inspector"
-          path="/errors-inspector/"
-        />
-        <Application
-          icon={businessAnalyticsLogo}
-          title="Business Analytics"
-          path="/business-analytics/"
-        />
-        <Application icon={mongoLogo} title="MongoDB" path="/mongo/" />
-      </div>
-
       <h4 className="separator">🐳 Docker</h4>
 
       <div className="apps-container">
@@ -88,6 +56,12 @@ function App() {
           icon={errorsInspectorLogo}
           title="Errors Inspector"
           path="http://45.128.98.99:8086/"
+        />
+
+        <Application
+          icon={businessAnalyticsLogo}
+          title="Business Analytics"
+          path="http://45.128.98.99:8087/"
         />
 
         <Application
