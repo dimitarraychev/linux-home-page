@@ -8,6 +8,8 @@ import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
 import background from "./assets/background.jpg";
+import applicationsIcon from "./assets/applications-icon.svg";
+import infrastructureIcon from "./assets/infrastructure-icon.svg";
 
 function App() {
   return (
@@ -19,18 +21,15 @@ function App() {
         height: "100vh",
       }}
     >
-      <h1 className="title">Welcome to the Company Apps Dashboard!</h1>
-      <p className="subtitle">Select an app below to get started.</p>
+      <h1 className="title">Welcome to Homepage!</h1>
+      <p className="subtitle">Select an app below to start.</p>
 
-      <h4 className="separator">🐳 Docker</h4>
+      <h5 className="separator">
+        <img src={applicationsIcon} alt="tools" className="separator-icon" />{" "}
+        Applications
+      </h5>
 
       <div className="apps-container">
-        <Application
-          icon={portainerLogo}
-          title="Portainer"
-          path="https://45.128.98.99:9443/"
-        />
-
         <Application
           icon={toolsLogo}
           title="Secure Data Tools"
@@ -60,10 +59,23 @@ function App() {
           title="Business Analytics"
           path="http://45.128.98.99:8087/"
         />
+      </div>
+
+      <h5 className="separator">
+        <img src={infrastructureIcon} alt="tools" className="separator-icon" />{" "}
+        Infrastructure
+      </h5>
+
+      <div className="apps-container">
+        <Application
+          icon={portainerLogo}
+          title="Portainer"
+          path="https://45.128.98.99:9443/"
+        />
 
         <Application
           icon={mongoLogo}
-          title="MongoDB"
+          title="Mongo Express"
           path="http://45.128.98.99:8083/"
         />
       </div>

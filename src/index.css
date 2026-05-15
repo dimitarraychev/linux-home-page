@@ -48,7 +48,7 @@ body {
   --box-shadow-hover:
     inset 0 2px 4px rgba(255, 255, 255, 0.08), 0 12px 36px rgba(0, 0, 0, 0.5);
   --card-border: 1px solid var(--sidebar-border-color);
-  --card-bg: rgba(18, 20, 26, 0.6);
+  --card-bg: rgba(255, 255, 255, 0.1);
   --backdrop-filter: blur(24px);
   --padding: 1rem;
   --element-padding: 0.6rem 0.8rem;
