@@ -79,6 +79,12 @@ function App() {
         />
 
         <Application
+          icon={logsLogo}
+          title="Logs Monitor"
+          path="http://45.128.98.99:8085/"
+        />
+
+        <Application
           icon={mongoLogo}
           title="MongoDB"
           path="http://45.128.98.99:8083/"
