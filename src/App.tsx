@@ -8,6 +8,7 @@ import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
 import developmentLogo from "./assets/development-logo.svg";
+import glancesLogo from "./assets/glances-logo.svg";
 import background from "./assets/background.jpg";
 import applicationsIcon from "./assets/applications-icon.svg";
 import infrastructureIcon from "./assets/infrastructure-icon.svg";
@@ -25,10 +26,10 @@ function App() {
       <h1 className="title">Welcome to Homepage!</h1>
       <p className="subtitle">Select an app below to start.</p>
 
-      <h5 className="separator">
+      <h6 className="separator">
         <img src={applicationsIcon} alt="tools" className="separator-icon" />{" "}
         Applications
-      </h5>
+      </h6>
 
       <div className="apps-container">
         <Application
@@ -62,16 +63,22 @@ function App() {
         />
       </div>
 
-      <h5 className="separator">
+      <h6 className="separator">
         <img src={infrastructureIcon} alt="tools" className="separator-icon" />{" "}
         Infrastructure
-      </h5>
+      </h6>
 
       <div className="apps-container">
         <Application
           icon={portainerLogo}
           title="Portainer"
           path="https://45.128.98.99:9443/"
+        />
+
+        <Application
+          icon={glancesLogo}
+          title="Glances"
+          path="http://45.128.98.99:61208/"
         />
 
         <Application
