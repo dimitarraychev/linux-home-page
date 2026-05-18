@@ -1,6 +1,8 @@
 services:
   linux-home-page:
-    build: .
+    build:
+      context: .
+      network: host
     image: linux-home-page:latest
     container_name: linux-home-page
     ports:
