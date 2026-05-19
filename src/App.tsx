@@ -1,7 +1,7 @@
 import "./App.css";
 import Application from "./components/Application/Application";
 import toolsLogo from "./assets/secure-data-tools-logo.svg";
-import launchLogo from "./assets/game-launch-ui-logo.svg";
+import launchLogo from "./assets/game-launcher-logo.svg";
 import logsLogo from "./assets/api-logs-monitor-logo.svg";
 import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
 import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
