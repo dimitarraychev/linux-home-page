@@ -42,7 +42,7 @@ function App() {
         <Application
           icon={launchLogo}
           title="Game Launcher"
-          path="http://45.128.98.99:8084/"
+          path="https://45.128.98.99:8443/"
         />
 
         <Application
