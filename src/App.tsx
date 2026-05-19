@@ -36,7 +36,7 @@ function App() {
         <Application
           icon={toolsLogo}
           title="Secure Data Tools"
-          path="http://45.128.98.99:8082/"
+          path="https://45.128.98.99:10443/"
         />
 
         <Application
