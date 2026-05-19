@@ -54,7 +54,7 @@ function App() {
         <Application
           icon={errorsInspectorLogo}
           title="Errors Inspector"
-          path="http://45.128.98.99:8086/"
+          path="https://45.128.98.99:13443/"
         />
 
         <Application
