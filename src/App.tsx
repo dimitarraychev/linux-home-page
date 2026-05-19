@@ -60,7 +60,7 @@ function App() {
         <Application
           icon={businessAnalyticsLogo}
           title="Business Analytics"
-          path="http://45.128.98.99:8087/"
+          path="https://45.128.98.99:14443/"
         />
       </div>
 
