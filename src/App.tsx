@@ -8,8 +8,6 @@ import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
 import developmentLogo from "./assets/development-logo.svg";
-import glancesLogo from "./assets/glances-logo.svg";
-import nginxLogo from "./assets/nginx-logo.svg";
 import background from "./assets/background.jpg";
 import applicationsIcon from "./assets/applications-icon.svg";
 import infrastructureIcon from "./assets/infrastructure-icon.svg";
@@ -74,18 +72,6 @@ function App() {
           icon={portainerLogo}
           title="Portainer"
           path="https://45.128.98.99:9443/"
-        />
-
-        <Application
-          icon={glancesLogo}
-          title="Glances"
-          path="http://45.128.98.99:61208/"
-        />
-
-        <Application
-          icon={nginxLogo}
-          title="Nginx"
-          path="http://45.128.98.99:81/"
         />
 
         <Application
