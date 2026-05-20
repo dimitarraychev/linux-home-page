@@ -1,12 +1,14 @@
 import "./App.css";
 import Application from "./components/Application/Application";
 import toolsLogo from "./assets/secure-data-tools-logo.svg";
+import itToolsLogo from "./assets/it-tools-logo.svg";
 import launchLogo from "./assets/game-launcher-logo.svg";
 import logsLogo from "./assets/api-logs-monitor-logo.svg";
 import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
 import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
+import dockhandLogo from "./assets/dockhand-logo.webp";
 import developmentLogo from "./assets/development-logo.svg";
 import background from "./assets/background.jpg";
 import applicationsIcon from "./assets/applications-icon.svg";
@@ -35,6 +37,12 @@ function App() {
           icon={toolsLogo}
           title="Secure Data Tools"
           path="https://45.128.98.99:12443/"
+        />
+
+        <Application
+          icon={itToolsLogo}
+          title="IT-Tools"
+          path="http://45.128.98.99:8080/"
         />
 
         <Application
@@ -72,6 +80,12 @@ function App() {
           icon={portainerLogo}
           title="Portainer"
           path="https://45.128.98.99:9443/"
+        />
+
+        <Application
+          icon={dockhandLogo}
+          title="Dockhand"
+          path="http://45.128.98.99:3003/"
         />
 
         <Application
