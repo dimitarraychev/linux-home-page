@@ -1,7 +1,9 @@
 import "./App.css";
-import Application from "./components/Application/Application";
+import background from "./assets/background.jpg";
+import applicationsIcon from "./assets/applications-icon.svg";
+import infrastructureIcon from "./assets/infrastructure-icon.svg";
+
 import toolsLogo from "./assets/secure-data-tools-logo.svg";
-import itToolsLogo from "./assets/it-tools-logo.svg";
 import launchLogo from "./assets/game-launcher-logo.svg";
 import logsLogo from "./assets/api-logs-monitor-logo.svg";
 import errorsInspectorLogo from "./assets/errors-inspector-logo.svg";
@@ -9,9 +11,9 @@ import businessAnalyticsLogo from "./assets/business-analytics-logo.svg";
 import mongoLogo from "./assets/mongo-logo.svg";
 import portainerLogo from "./assets/portainer-logo.svg";
 import developmentLogo from "./assets/development-logo.svg";
-import background from "./assets/background.jpg";
-import applicationsIcon from "./assets/applications-icon.svg";
-import infrastructureIcon from "./assets/infrastructure-icon.svg";
+import pgAdminLogo from "./assets/pgadmin-logo.svg";
+
+import Application from "./components/Application/Application";
 
 function App() {
   return (
@@ -36,12 +38,6 @@ function App() {
           icon={toolsLogo}
           title="Secure Data Tools"
           path="https://45.128.98.99:12443/"
-        />
-
-        <Application
-          icon={itToolsLogo}
-          title="IT-Tools"
-          path="http://45.128.98.99:8080/"
         />
 
         <Application
@@ -85,6 +81,12 @@ function App() {
           icon={mongoLogo}
           title="Mongo Express"
           path="http://45.128.98.99:8083/"
+        />
+
+        <Application
+          icon={pgAdminLogo}
+          title="PgAdmin"
+          path="http://45.128.98.99:8088/"
         />
 
         <Application
